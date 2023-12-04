@@ -1,0 +1,94 @@
+
+input[type="text"], input[type="radio"] {
+    border: 1px solid #FFFFFF;
+  }
+  
+  input[type="radio"] {
+    background-color: #FFFFFF;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #6741D9;
+  }
+  
+  .graph-bars {
+    background-color: #F0C3F1;
+  }
+  
+  .bar-axis, .bar-markings {
+    color: #FFFFFF;
+  }
+  
+  .save-button {
+    background-color: #6741D9;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .signin-button {
+    background-color: #6741D9;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+
+  .save-button {
+    background-color: #6741D9;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .form {
+    margin: 300px auto; /* Center the form horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home{
+    margin: 20px auto; /* Center the form horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; 
+  }
+
+  .form input,
+.my-form button {
+  margin-bottom: 15px; /* Adjust the spacing between form elements */
+  width: 600px;
+}
+h1{
+    font-size: 32px;
+}
+.songs-input{
+  width: 100px;
+  border: 1px solid #FFFFFF;
+  background-color: black;  
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+.text-input{
+  width: 300px;
+  border: 1px solid #FFFFFF;
+  background-color: black;  
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.login-input{
+  width: 300px;
+  border: 1px solid #FFFFFF;
+  background-color: black;  
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+button{
+    width: 600px;
+
+}
+.greyed-out {
+  background-color: #6741D9;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+}
